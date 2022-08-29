@@ -15,12 +15,8 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
 
 ### Training phase:
 ![train](code/Images/training-phase.png)
-### Feature Encoder 
-![featenc](code/Images/Feature-Encoder.png)
 ### Test phase
 ![test](code/Images/Test-Phase.png)
-
-
 
 ## How to use this code?
 
