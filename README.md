@@ -18,5 +18,8 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
 ## How to use this code?
 1. Clone this repository using: ```git clone https://github.com/anony2023/DeepLSH.git ```
 2. Install the required python packages: ```pip install -r ./code/requirements.txt ```
-3. Run the notebooks in code/notebooks/[sim-measure]
+3. Run the notebooks in code/notebooks/measure:
+    * measure-DeepLSH.ipynb : the end-to-end procedure to train/test and validate DeepLSH
+    * measure-Baseline.ipynb: the end-to-end procedure to train/test and validate the Baseline
+    * measure-Runtime.ipynb : comparison between the required runtime for DeepLSH vs. brute force
 
