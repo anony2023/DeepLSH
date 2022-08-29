@@ -13,11 +13,12 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
 - Moroo et al. [[Paper](http://ksiresearch.org/seke/seke17paper/seke17paper_135.pdf)]
 - TraceSIM [[Paper](https://arxiv.org/pdf/2009.12590.pdf)]
 
-1. Training phase:
+### Training phase:
 ![train](code/Images/training-phase.png)
-2. Feature Encoder 
+### Feature Encoder 
 ![featenc](code/Images/Feature-Encoder.png)
-3. Test phase
+### Test phase
+![test](code/Images/Test-Phase.png)
 
 
 
