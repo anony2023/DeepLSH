@@ -20,6 +20,3 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
 2. Install the required python packages: ```pip install -r ./code/requirements.txt ```
 3. Run the notebooks in code/notebooks/[sim-measure]
 
-
-## Explanation about data
-
