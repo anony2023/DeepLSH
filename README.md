@@ -14,6 +14,7 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
 - TraceSIM [[Paper](https://arxiv.org/pdf/2009.12590.pdf)]
 
 1. Training phase:
+![train](code/Images/training-phase.png)
 2. Feature Encoder 
 3. Test phase
 
