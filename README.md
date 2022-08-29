@@ -16,8 +16,8 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
 ![test](code/Images/Test-Phase.png)
 
 ## How to use this code?
-1. Clone this repository using: ```sh  git clone https://github.com/anony2023/DeepLSH.git ```
-2. Install the required python packages: ```sh pip install -r ./code/requirements.txt ```
+1. Clone this repository using: ```git clone https://github.com/anony2023/DeepLSH.git ```
+2. Install the required python packages: ```pip install -r ./code/requirements.txt ```
 
 
 ## Explanation about data
