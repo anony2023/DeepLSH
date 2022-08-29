@@ -1,7 +1,7 @@
 # DeepLSH: Deep Locality-Sensitive Hash Learning for Fast Near Duplicate Crash Report Detection
 
 ## Overview
-In this work, we aim at detecting for a crash report its candidate near-duplicates (i.e., similar crashes that are likely to be induced by the same software bug) in a large database of historical crashes and given any similarity measure dedicated to compare between stack traces. To this end, we propose **DeepLSH** a deep Siamese hash coding neural network that learns to approximate the locality-sensitive property to provide binary hash codes aiming to locate the most similar stack traces into hash buckets as shown in the two Figures below. **DeepLSH** have been conducted on a large stack trace dataset and performed on state-of-the-art similarity measures proposed to tackle the crash deduplication problem:
+In this work, we aim at detecting for a crash report its candidate near-duplicates (i.e., similar crashes that are likely to be induced by the same software bug) in a large database of historical crashes and given any similarity measure dedicated to compare between stack traces. To this end, we propose **DeepLSH** a deep Siamese hash coding neural network that learns to approximate the locality-sensitive property to provide binary hash codes aiming to locate the most similar stack traces into hash buckets as shown in the Figure . **DeepLSH** have been conducted on a large stack trace dataset and performed on state-of-the-art similarity measures proposed to tackle the crash deduplication problem:
 - Jaccard coefficient [[Ref](https://en.wikipedia.org/wiki/Jaccard_index)]
 - Cosine similarity [[Ref](https://en.wikipedia.org/wiki/Sine_and_cosine)]
 - Lucene TF-IDF [[Ref](https://lucene.apache.org/core/7_6_0/core/org/apache/lucene/search/similarities/TFIDFSimilarity.html)]
@@ -13,9 +13,6 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
 - Moroo et al. [[Paper](http://ksiresearch.org/seke/seke17paper/seke17paper_135.pdf)]
 - TraceSIM [[Paper](https://arxiv.org/pdf/2009.12590.pdf)]
 
-### Training phase:
-![train](code/Images/training-phase.png)
-### Test phase
 ![test](code/Images/Test-Phase.png)
 
 ## How to use this code?
