@@ -16,7 +16,8 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
 ![test](code/Images/Test-Phase.png)
 
 ## How to use this code?
-1. Clone this repository using: ```sh pip install -e ./Code/extened-mozilla-parser/moz-sql-parser-hack ```
+1. Clone this repository using: ```sh [pip install -e ./Code/extened-mozilla-parser/moz-sql-parser-hack](https://github.com/anony2023/DeepLSH.git) ```
+2. Install the required python packages: ```sh [pip install -e ./Code/extened-mozilla-parser/moz-sql-parser-hack](https://github.com/anony2023/DeepLSH.git) ```
 
 
 ## Explanation about data
