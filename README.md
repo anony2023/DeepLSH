@@ -22,4 +22,8 @@ In this work, we aim at detecting for a crash report its candidate near-duplicat
     * measure-DeepLSH.ipynb : the end-to-end procedure to train/test and validate DeepLSH
     * measure-Baseline.ipynb: the end-to-end procedure to train/test and validate the Baseline
     * measure-Runtime.ipynb : comparison between the required runtime for DeepLSH vs. brute force
+    
+## Run DeepLSH with docker
+1. Pull the already-build docker image using: ```docker pull vodep85302/icse2023 ```
+2. Run the docker image: ```docker run -p 8888:8888 vodep85302/icse2023 ```
 
